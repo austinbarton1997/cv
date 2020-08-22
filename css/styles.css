@@ -6,6 +6,8 @@ body {
 
 h1 {
   margin: 0;
+  font-size: 4em;
+  font-family: 'Kaushan Script', cursive;
 }
 
 a {
