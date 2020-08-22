@@ -1,0 +1,165 @@
+/**********DEFAULT************/
+body {
+  background-color: #222831;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+  padding-left: 1em;
+}
+
+a:hover {
+  color: #00adb5;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+hr {
+  margin-top: 5%;
+  border-style: none;
+  color: lightgrey;
+  border-top: .25em dotted;
+  width: 3%;
+}
+
+/**********CLASSES************/
+.title {
+  color: #eeeeee;
+  margin-top: 10%;
+  margin: 5% auto auto auto;
+  text-align: center;
+  height: 20%;
+  width: 70%;
+}
+
+.navBar {
+  padding: 1.5% 0 1.5% 0;
+}
+
+.navBar:hover {
+  background-color: #393e46;
+}
+
+.links {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5em;
+  margin-left: 80%;
+}
+
+.mountains {
+  margin: -120px auto auto auto;
+}
+
+.about {
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+  margin-top: -50px;
+  height: 70%;
+  width: 100%;
+  background-color: white;
+  padding-top: 5%;
+  color: #00adb5;
+}
+
+.footer {
+  background-color: #393e46;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.footer-links {
+  font-weight: bold;
+  word-spacing: 40px;
+  padding: 0 0 50px 0;
+}
+
+/**********ID************/
+#name {
+  font-size: 4em;
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 12.5%;
+}
+
+#tag {
+  font-family: 'Oswald', sans-serif;
+}
+
+#about-heading {
+  text-align: center;
+}
+
+#about-info {
+  color: black;
+  margin: auto;
+  width: 20%;
+  font-size: 1.5em;
+}
+
+#ability-heading, #help-heading {
+  text-align: center;
+  font-size: 3.8em;
+  font-weight: 400;
+}
+
+#info-heading1 {
+  margin: -5% auto auto 55%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#ability-info {
+  color: black;
+  margin: auto auto auto 55%;
+  width: 25%;
+  font-size: 1.5em;
+}
+
+#help-heading2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#info-heading2 {
+  margin: auto auto auto 20%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#ability-info2 {
+  color: black;
+  margin: auto 55% auto auto;
+  width: 25%;
+  font-size: 1.5em;
+}
+
+#help-info2 {
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  font-size: 1.5em;
+}
+
+#idea-img {
+  width: 15%;
+  height: auto;
+  margin: auto auto auto 30%;
+}
+
+#security-img {
+  width: 15%;
+  height: auto;
+  margin: -5% auto auto 55%;
+}
