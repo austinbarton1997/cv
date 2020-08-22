@@ -59,7 +59,7 @@ hr {
 }
 
 .mountains {
-  margin: -120px auto auto auto;
+  margin: auto;
 }
 
 .about {
@@ -164,4 +164,8 @@ hr {
   width: 15%;
   height: auto;
   margin: -5% auto auto 55%;
+}
+
+#mountains {
+  margin: auto;
 }
