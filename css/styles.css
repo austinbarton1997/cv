@@ -45,7 +45,7 @@ hr {
 }
 
 .navBar {
-  padding: 1.5% 0 1.5% 0;
+  padding: 1.5% 5% 1.5% 0;
 }
 
 .navBar:hover {
@@ -86,6 +86,17 @@ hr {
   padding: 0 0 3.125em 0;
 }
 
+.idea {
+  width: 50%;
+  margin: 100px 20% 100px auto;
+}
+
+.security {
+  width: 50%;
+  margin: 100px auto 100px 30%;
+}
+
+
 /**********ID************/
 #name {
   font-size: 4em;
@@ -115,16 +126,15 @@ hr {
 }
 
 #info-heading1 {
-  margin: -5% auto auto 55%;
   font-size: 2em;
   font-weight: bold;
 }
 
 #ability-info {
   color: black;
-  margin: auto auto auto 55%;
-  width: 25%;
-  font-size: 1.5em;
+  width: 80%;
+  line-height: 2;
+  font-size: 1.2em;
 }
 
 #help-heading2 {
@@ -134,16 +144,15 @@ hr {
 }
 
 #info-heading2 {
-  margin: auto auto auto 20%;
   font-size: 2em;
   font-weight: bold;
 }
 
 #ability-info2 {
   color: black;
-  margin: auto 55% auto auto;
-  width: 25%;
-  font-size: 1.5em;
+  width: 50%;
+  line-height: 2;
+  font-size: 1.2em;
 }
 
 #help-info2 {
@@ -155,13 +164,16 @@ hr {
 }
 
 #idea-img {
-  width: 15%;
+  width: 20%;
   height: auto;
-  margin: auto auto auto 30%;
+  float: left;
+  margin-right: 30px;
 }
 
 #security-img {
-  width: 15%;
+  position: relative;
+  right: 20%;
+  width: 20%;
   height: auto;
-  margin: -5% auto auto 55%;
+  float: right;
 }
